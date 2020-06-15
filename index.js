@@ -4,7 +4,7 @@ const mainContainer = document.querySelector('.container-top-right');
 
 // Draw 79 circles.
 
-let avLifeSpan = 79 * 365;
+let avLifeSpan = 34 * 365;
 
 while(avLifeSpan > 0){
     mainContainer.insertAdjacentHTML('beforeend', `<div class='circle'></div>`);
